@@ -87,96 +87,115 @@ common style
 
 /* -------------Architect-futuear container style
 ------------------------------------------------------ */
-.Architect-futuear{
-    display: flex;
-    gap: 54px;
+.Architect-futuear {
+  display: flex;
+  gap: 54px;
 }
-.futuear-plans{
-    width: 40%;
+.futuear-plans {
+  width: 40%;
 }
-.Architect-title{
-    font-size: 45px;
-    padding-left: 21px;
-    margin: 24px 0 ;
-    border-left: 5px solid #ff900e;
+.Architect-title {
+  font-size: 45px;
+  padding-left: 21px;
+  margin: 24px 0;
+  border-left: 5px solid #ff900e;
 }
-.futuear-plans > p{
-    color:#727272;
-    margin-bottom: 30px;
+.futuear-plans > p {
+  color: #727272;
+  margin-bottom: 30px;
 }
-.plan{
-    padding: 30px;
-    box-shadow: 0 0 10px ;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.plan {
+  padding: 30px;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
-.plan > h4{
-    font-size: 20px;
-    font-weight: 600;
-    color: #131313;
-    margin-bottom: 10px;
+.plan > h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+  margin-bottom: 10px;
 }
-.Architect-img-container{
-    width: 60%;
-    position: relative;
+.Architect-img-container {
+  width: 60%;
+  position: relative;
 }
-.Architect-img-container > img{
-    width: 90%;
-    height: 95%;
-    object-fit: cover;
-    float: right;
+.Architect-img-container > img {
+  width: 90%;
+  height: 95%;
+  object-fit: cover;
+  float: right;
 }
-.expariances{
-    position: absolute;
-    background-color: #ff900e;
-    text-align: center;
-    padding: 40px 20px;
-    bottom: 0;
-    color: #FFFFFF;
-    opacity: 0.8;
-    border-radius: 10px;
+.expariances {
+  position: absolute;
+  background-color: #ff900e;
+  text-align: center;
+  padding: 40px 20px;
+  bottom: 0;
+  color: #ffffff;
+  opacity: 0.8;
+  border-radius: 10px;
 }
-.expariances > h2{
-    font-size: 65px;
-    font-weight: 700;
+.expariances > h2 {
+  font-size: 65px;
+  font-weight: 700;
 }
-.expariances > p{
-    font-size: 24px;
-    font-weight: 500;
+.expariances > p {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 /* -------------facts-container style
 --------------------------------------------- */
-.facts-container > p{
-    color: #727272; 
+.facts-container > p {
+  color: #727272;
 }
-.facts-title{
-    color:  #131313;
-    font-size: 45px;
-    font-weight: 700;
-    padding-bottom: 24px;
+.facts-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 24px;
 }
-.fact-items{
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    margin: 70px auto 0;
+.fact-items {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 70px auto 0;
 }
-.item{
-    text-align: center;
-    padding: 30px 40px;
-    border: 2px solid #FF900E;
-    border-radius: 8px;
-    box-shadow: 0 0 6px;
-    transition: transform 0.5s;
+.item {
+  text-align: center;
+  padding: 30px 40px;
+  border: 2px solid #ff900e;
+  border-radius: 8px;
+  box-shadow: 0 0 6px;
+  transition: transform 0.5s;
 }
-.item:hover{
-    transform:scale(1.1);
+.item:hover {
+  transform: scale(1.1);
 }
-.item > h2{
-    font-size: 45px;
+.item > h2 {
+  font-size: 45px;
+  color: #424242;
+  margin: 10px 0 5px;
+}
+/* -------------sponsor-container
+--------------------------------------------- */
+.center-aling {
+  text-align: center;
+}
+.center-aling > h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.center-aling > p{
     color: #424242;
-    margin: 10px 0 5px;
+}
+.sponsor-logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
 }
 /*---------------------------------
  media query Start
@@ -208,8 +227,8 @@ common style
     flex-direction: column-reverse;
     width: 100%;
   }
-  .fuatures-images{
-    grid-template-columns: repeat(1,1fr);
+  .fuatures-images {
+    grid-template-columns: repeat(1, 1fr);
     width: 100%;
     padding: 10px;
   }
@@ -218,36 +237,43 @@ common style
     text-align: center;
   }
   /* Architect-futuear container responsive  */
-  .Architect-futuear{
+  .Architect-futuear {
     flex-direction: column;
   }
-  .futuear-plans{
+  .futuear-plans {
     width: 100%;
   }
-  .Architect-title{
+  .Architect-title {
     font-size: 35px;
-}
-.Architect-img-container{
+  }
+  .Architect-img-container {
     width: 100%;
     height: 100%;
-}
-.expariances{
+  }
+  .expariances {
     position: absolute;
     background-color: #ff900e;
     text-align: center;
     padding: 40px 30px;
     bottom: 75%;
     left: 0;
-}
-.expariances > h2{
+  }
+  .expariances > h2 {
     font-size: 35px;
     font-weight: 700;
-}
- /* facts-container style  */
-.fact-items{
+  }
+  /* facts-container style  */
+  .fact-items {
     flex-direction: column;
-}
-.item{
+  }
+  .item {
     margin-bottom: 50px;
-}
+  }
+  /* sponsor-container */
+  .sponsor-logo{
+    flex-direction: column;
+  }
+  .sponsor-logo > img{
+    margin-top: 10px;
+  }
 }
