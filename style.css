@@ -85,7 +85,7 @@ common style
   padding: 17px 28px;
 }
 
-/* -------------Architect-futuear
+/* -------------Architect-futuear container style
 ------------------------------------------------------ */
 .Architect-futuear{
     display: flex;
@@ -183,4 +183,30 @@ common style
     width: 100%;
     text-align: center;
   }
+  /* Architect-futuear container responsive  */
+  .Architect-futuear{
+    flex-direction: column;
+  }
+  .futuear-plans{
+    width: 100%;
+  }
+  .Architect-title{
+    font-size: 35px;
+}
+.Architect-img-container{
+    width: 100%;
+    height: 100%;
+}
+.expariances{
+    position: absolute;
+    background-color: #ff900e;
+    text-align: center;
+    padding: 40px 30px;
+    bottom: 75%;
+    left: 0;
+}
+.expariances > h2{
+    font-size: 35px;
+    font-weight: 700;
+}
 }
