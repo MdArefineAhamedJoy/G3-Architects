@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------------------------------
+common style 
+----------------------------*/
+.btn-primary{
+    background-color: #FF900E;
+    padding: 21px 40px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color:  #FFFFFF;
+}
+/* -------------Architects-heading-container style 
+------------------------------------------------------ */
+.Architects-heading-container{
+    width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Architects-heading-container >h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color:  #131313;
+}
+.Architects-heading-container > p{
+    color: #727272;
+    padding: 20px;
+}
+
+
+
+
+/*---------------------------------
+ media query Start
+ ------------------------------------ */
+@media  screen and (max-width:576px) {
+    /* common style responsive  */
+    .btn-primary{
+        background-color: #FF900E;
+        padding: 21px 20px;
+        font-size: 18px;
+
+    }
+    .Architects-heading-container{
+        width: 90%;
+    }
+    .Architects-heading-container >h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .Architects-heading-container >p{
+        padding: 0;
+        margin: 10px 0;
+    }
+
+}
