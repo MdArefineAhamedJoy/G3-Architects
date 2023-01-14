@@ -44,8 +44,46 @@ common style
     width: 100%;
     object-fit: cover;
 }
-
-
+/* -------------features-container
+------------------------------------------------------ */
+.features-container{
+    width: 80%;
+    display:flex;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: center;
+}
+.fuatures-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    gap: 20px;
+}
+.fuatures-images img{
+    width: 100%;
+    object-fit: cover;
+}
+.fuatures-info{
+    width: 40%;
+}
+.fuatures-info > h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.color-text{
+    color: #727272;
+    font-weight: 500;
+}
+.primary-color{
+    color: #FF900E;
+}
+.fuatures-info > p{
+    margin: 24px 0 30px;
+    color: #727272;
+}
+.fuatures-info > .btn-primary{
+    padding: 17px 28px;
+}
 
 /*---------------------------------
  media query Start
