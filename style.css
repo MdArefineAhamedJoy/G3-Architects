@@ -6,6 +6,10 @@
 /* -------------------------------
 common style 
 ----------------------------*/
+.container{
+    width: 90%;
+    margin:100px auto;
+}
 .btn-primary{
     background-color: #FF900E;
     padding: 21px 40px;
@@ -31,7 +35,15 @@ common style
     color: #727272;
     padding: 20px;
 }
-
+/* -------------banner section style 
+------------------------------------------------------ */
+.banner-container{
+    width: 90%;
+}
+.banner-container img{
+    width: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -42,12 +54,11 @@ common style
     /* common style responsive  */
     .btn-primary{
         background-color: #FF900E;
-        padding: 21px 20px;
+        padding: 18px 30px;
         font-size: 18px;
-
     }
     .Architects-heading-container{
-        width: 90%;
+        width: 100%;
     }
     .Architects-heading-container >h1{
         font-size: 25px;
@@ -57,5 +68,6 @@ common style
         padding: 0;
         margin: 10px 0;
     }
+
 
 }
