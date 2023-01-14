@@ -144,6 +144,40 @@ common style
     font-size: 24px;
     font-weight: 500;
 }
+
+/* -------------facts-container style
+--------------------------------------------- */
+.facts-container > p{
+    color: #727272; 
+}
+.facts-title{
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.fact-items{
+    width: 85%;
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    text-align: center;
+    padding: 30px 40px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    box-shadow: 0 0 6px;
+    transition: transform 0.5s;
+}
+.item:hover{
+    transform:scale(1.1);
+}
+.item > h2{
+    font-size: 45px;
+    color: #424242;
+    margin: 10px 0 5px;
+}
 /*---------------------------------
  media query Start
  ------------------------------------ */
