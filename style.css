@@ -85,6 +85,65 @@ common style
   padding: 17px 28px;
 }
 
+/* -------------Architect-futuear
+------------------------------------------------------ */
+.Architect-futuear{
+    display: flex;
+    gap: 54px;
+}
+.futuear-plans{
+    width: 40%;
+}
+.Architect-title{
+    font-size: 45px;
+    padding-left: 21px;
+    margin: 24px 0 ;
+    border-left: 5px solid #ff900e;
+}
+.futuear-plans > p{
+    color:#727272;
+    margin-bottom: 30px;
+}
+.plan{
+    padding: 30px;
+    box-shadow: 0 0 10px ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.plan > h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.Architect-img-container{
+    width: 60%;
+    position: relative;
+}
+.Architect-img-container > img{
+    width: 90%;
+    height: 95%;
+    object-fit: cover;
+    float: right;
+}
+.expariances{
+    position: absolute;
+    background-color: #ff900e;
+    text-align: center;
+    padding: 40px 20px;
+    bottom: 0;
+    color: #FFFFFF;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.expariances > h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.expariances > p{
+    font-size: 24px;
+    font-weight: 500;
+}
 /*---------------------------------
  media query Start
  ------------------------------------ */
