@@ -9,6 +9,7 @@ common style
 .container {
   width: 90%;
   margin: 100px auto;
+  background-color:aliceblue;
 }
 .btn-primary {
   background-color: #ff900e;
@@ -21,6 +22,24 @@ common style
 }
 /* -------------Architects-heading-container style 
 ------------------------------------------------------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin-right: 30px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
 .Architects-heading-container {
   width: 862px;
   margin: 0 auto;
@@ -219,6 +238,18 @@ footer{
     background-color: #ff900e;
     padding: 18px 30px;
     font-size: 18px;
+  }
+  /* nav style  */
+  nav{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  ul {
+    flex-direction: column;
+    justify-content: start;
+  }
+  ul li{
+    margin:10px 0;
   }
   /* Architects-heading-container style responsive  */
 
