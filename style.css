@@ -197,6 +197,18 @@ common style
   align-items: center;
   margin-top: 50px;
 }
+/* -------------footer section
+--------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #FFF4E7;
+    height: 30vh;
+    margin-top: 100px;
+    text-align: center;
+    color: #424242;
+}
 /*---------------------------------
  media query Start
  ------------------------------------ */
