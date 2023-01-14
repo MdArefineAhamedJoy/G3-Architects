@@ -6,10 +6,16 @@
 /* -------------------------------
 common style 
 ----------------------------*/
+body{
+    background-color:aliceblue;
+}
+section, nav{
+    background-color:aliceblue;
+}
 .container {
   width: 90%;
   margin: 100px auto;
-  background-color:aliceblue;
+
 }
 .btn-primary {
   background-color: #ff900e;
@@ -26,6 +32,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
+    margin-bottom: 100px;
 }
 nav h1{
     font-size: 45px;
@@ -243,6 +251,7 @@ footer{
   nav{
     flex-direction: column;
     align-items: stretch;
+    padding-left: 10px;
   }
   ul {
     flex-direction: column;
