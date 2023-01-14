@@ -1,111 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* -------------------------------
 common style 
 ----------------------------*/
-.container{
-    width: 90%;
-    margin:100px auto;
+.container {
+  width: 90%;
+  margin: 100px auto;
 }
-.btn-primary{
-    background-color: #FF900E;
-    padding: 21px 40px;
-    border: 0;
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: 600;
-    color:  #FFFFFF;
+.btn-primary {
+  background-color: #ff900e;
+  padding: 21px 40px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
 }
 /* -------------Architects-heading-container style 
 ------------------------------------------------------ */
-.Architects-heading-container{
-    width: 862px;
-    margin: 0 auto;
-    text-align: center;
+.Architects-heading-container {
+  width: 862px;
+  margin: 0 auto;
+  text-align: center;
 }
-.Architects-heading-container >h1{
-    font-weight: 700;
-    font-size: 4rem;
-    color:  #131313;
+.Architects-heading-container > h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #131313;
 }
-.Architects-heading-container > p{
-    color: #727272;
-    padding: 20px;
+.Architects-heading-container > p {
+  color: #727272;
+  padding: 20px;
 }
 /* -------------banner section style 
 ------------------------------------------------------ */
-.banner-container{
-    width: 90%;
+.banner-container {
+  width: 90%;
 }
-.banner-container img{
-    width: 100%;
-    object-fit: cover;
+.banner-container img {
+  width: 100%;
+  object-fit: cover;
 }
 /* -------------features-container
 ------------------------------------------------------ */
-.features-container{
-    width: 80%;
-    display:flex;
-    margin: 0 auto;
-    gap: 30px;
-    align-items: center;
+.features-container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+  align-items: center;
 }
-.fuatures-images{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 60%;
-    gap: 20px;
+.fuatures-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
+  gap: 20px;
 }
-.fuatures-images img{
-    width: 100%;
-    object-fit: cover;
+.fuatures-images img {
+  width: 100%;
+  object-fit: cover;
 }
-.fuatures-info{
-    width: 40%;
+.fuatures-info {
+  width: 40%;
 }
-.fuatures-info > h2{
-    font-size: 45px;
-    font-weight: 700;
+.fuatures-info > h2 {
+  font-size: 45px;
+  font-weight: 700;
 }
-.color-text{
-    color: #727272;
-    font-weight: 500;
+.color-text {
+  color: #727272;
+  font-weight: 500;
 }
-.primary-color{
-    color: #FF900E;
+.primary-color {
+  color: #ff900e;
 }
-.fuatures-info > p{
-    margin: 24px 0 30px;
-    color: #727272;
+.fuatures-info > p {
+  margin: 24px 0 30px;
+  color: #727272;
 }
-.fuatures-info > .btn-primary{
-    padding: 17px 28px;
+.fuatures-info > .btn-primary {
+  padding: 17px 28px;
 }
 
 /*---------------------------------
  media query Start
  ------------------------------------ */
-@media  screen and (max-width:576px) {
-    /* common style responsive  */
-    .btn-primary{
-        background-color: #FF900E;
-        padding: 18px 30px;
-        font-size: 18px;
-    }
-    .Architects-heading-container{
-        width: 100%;
-    }
-    .Architects-heading-container >h1{
-        font-size: 25px;
-        font-weight: 600;
-    }
-    .Architects-heading-container >p{
-        padding: 0;
-        margin: 10px 0;
-    }
+@media screen and (max-width: 576px) {
+  /* common style responsive  */
 
+  .btn-primary {
+    background-color: #ff900e;
+    padding: 18px 30px;
+    font-size: 18px;
+  }
+  /* Architects-heading-container style responsive  */
 
+  .Architects-heading-container {
+    width: 100%;
+  }
+  .Architects-heading-container > h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .Architects-heading-container > p {
+    padding: 0;
+    margin: 10px 0;
+  }
+  /* features-container responsive */
+
+  .features-container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .fuatures-images{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    padding: 10px;
+  }
+  .fuatures-info {
+    width: 100%;
+    text-align: center;
+  }
 }
