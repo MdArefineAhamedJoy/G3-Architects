@@ -157,10 +157,10 @@ common style
     padding-bottom: 24px;
 }
 .fact-items{
-    width: 85%;
-    margin: 70px auto 0;
     display: flex;
     justify-content: space-between;
+    width: 85%;
+    margin: 70px auto 0;
 }
 .item{
     text-align: center;
@@ -242,5 +242,12 @@ common style
 .expariances > h2{
     font-size: 35px;
     font-weight: 700;
+}
+ /* facts-container style  */
+.fact-items{
+    flex-direction: column;
+}
+.item{
+    margin-bottom: 50px;
 }
 }
