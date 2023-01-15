@@ -224,17 +224,7 @@ ul li{
   align-items: center;
   margin: 50px 0 100px;
 }
-/* -------------footer section
---------------------------------------------- */
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:  #FFF4E7;
-    height: 30vh;
-    text-align: center;
-    color: #424242;
-}
+
  /* -------------contuct
 --------------------------------------------- */
 .contuct{
@@ -272,6 +262,19 @@ footer{
   border-radius: 5px;
   font-size: 20px;
 }
+
+/* -------------footer section
+--------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #FFF4E7;
+    height: 30vh;
+    text-align: center;
+    color: #424242;
+}
+
 /*---------------------------------
  media query Start
  ------------------------------------ */
@@ -366,7 +369,8 @@ footer{
   /* contuct responsive section  */
   .contuct{
     flex-direction: column;
-    width: 80%;
+    width: 90%;
+    box-shadow: 0;
     padding: 10px 5px;
   }
   .sochal-media{
