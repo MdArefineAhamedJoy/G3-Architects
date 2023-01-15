@@ -263,7 +263,7 @@ footer{
   margin: 10px 0;
 
 }
-.contuct-text input{
+.contuct-text input , textarea{
   display: block;
   width: 90%;
   margin: 5px 0;
@@ -362,5 +362,25 @@ footer{
   }
   .sponsor-logo > img{
     margin-top: 10px;
+  }
+  /* contuct responsive section  */
+  .contuct{
+    flex-direction: column;
+    width: 80%;
+    padding: 10px 5px;
+  }
+  .sochal-media{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }.sochal-media >span , i{
+    margin: 0px;
+   }
+  .contuct-text{
+    width: 100%;
+    margin: 5px auto;
+  }
+  .contuct-text input , textarea  {
+    margin: 7px auto;
   }
 }
