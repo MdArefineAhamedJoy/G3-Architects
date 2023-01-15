@@ -274,7 +274,7 @@ footer{
   /* features-container responsive */
 
   .features-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
   }
   .fuatures-images {
