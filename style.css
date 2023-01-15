@@ -7,14 +7,11 @@
 common style 
 ----------------------------*/
 body{
-    background-color:aliceblue;
-}
-section, nav{
-    background-color:aliceblue;
+    background-color:rgb(209, 234, 255);
 }
 .container {
   width: 90%;
-  margin: 100px auto;
+  margin:0  auto 100px;
 
 }
 .btn-primary {
@@ -49,8 +46,7 @@ ul li{
     font-weight: 500;
 }
 .Architects-heading-container {
-  width: 862px;
-  margin: 0 auto;
+  margin: 100px auto 50px;
   text-align: center;
 }
 .Architects-heading-container > h1 {
@@ -76,7 +72,7 @@ ul li{
 .features-container {
   width: 80%;
   display: flex;
-  margin: 0 auto;
+  margin: 10px auto;
   gap: 30px;
   align-items: center;
 }
@@ -117,6 +113,7 @@ ul li{
 .Architect-futuear {
   display: flex;
   gap: 54px;
+  margin: 100px auto;
 }
 .futuear-plans {
   width: 40%;
@@ -222,7 +219,7 @@ ul li{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 50px;
+  margin: 50px 0 100px;
 }
 /* -------------footer section
 --------------------------------------------- */
@@ -232,7 +229,6 @@ footer{
     align-items: center;
     background-color:  #FFF4E7;
     height: 30vh;
-    margin-top: 100px;
     text-align: center;
     color: #424242;
 }
@@ -241,7 +237,6 @@ footer{
  ------------------------------------ */
 @media screen and (max-width: 576px) {
   /* common style responsive  */
-
   .btn-primary {
     background-color: #ff900e;
     padding: 18px 30px;
